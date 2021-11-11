@@ -6,6 +6,14 @@
     <language>pl</language>
      <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>5 kreatywnych pomysłów na wyprzedaże w ecommerce</title>
+    <link>https://www.prestashop.com/pl/blog/kreatywnych-pomyslow-wyprzedaze-ecommerce</link>
+    <description>Przygotowujesz swój sklep internetowy do Black Friday i Cyber Monday? Doskonale! To czas, którego grzechem byłoby nie wykorzystać przy rozwoju sprzedaży.</description>
+     <pubDate>Wed, 03 Nov 2021 16:52:59 +0100</pubDate>
+ <dc:creator>Krystian Podemski</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/kreatywnych-pomyslow-wyprzedaze-ecommerce</guid>
+  </item>
+  <item>
     <title>Jak przygotować kampanię promocyjną w ecommerce krok po kroku?</title>
     <link>https://www.prestashop.com/pl/blog/przygotowac-kampanie-promocyjna-ecommerce</link>
     <description>Nawet największa obniżka cen podczas Black Friday / Cyber Monday lub w trakcie okresu świątecznego zda się na nic, jeśli nikt się o niej nie dowie.</description>
@@ -76,14 +84,6 @@
      <pubDate>Thu, 23 Sep 2021 12:13:29 +0200</pubDate>
  <dc:creator>Krystian Podemski</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/pl/blog/moduly-sprzedaz-black-friday</guid>
-  </item>
-  <item>
-    <title>PrestaShop dla dużych sklepów internetowych. Poznaj przewagi Open Source i możliwości naszej platformy.</title>
-    <link>https://www.prestashop.com/pl/blog/duzych-sklepow-internetowych</link>
-    <description>Czy wiesz, że sklepy oparte na platformie PrestaShop sprzedają rocznie produkty o łącznej wartości przekraczającej 22 miliardy euro?</description>
-     <pubDate>Tue, 14 Sep 2021 18:16:46 +0200</pubDate>
- <dc:creator>Krystian Podemski</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/duzych-sklepow-internetowych</guid>
   </item>
   </channel>
 </rss>
