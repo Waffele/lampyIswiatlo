@@ -11,6 +11,9 @@ from selenium.webdriver.support import expected_conditions as EC
 chrome_path = "C:\Program Files\Google\Chrome\Application\chrome.exe"
 standard_delay = 20  # seconds
 max_processing_time = 10000  # seconds
+admin_main_site = "https://localhost/admin-dev/"
+admin_password = "rootroot"
+admin_email = "adm.chmielecki@gmail.com"
 
 
 def prepare_options():
@@ -19,6 +22,7 @@ def prepare_options():
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('ignore-certificate-errors')
     options.binary_location = chrome_path
     return options
 
@@ -26,17 +30,17 @@ def prepare_options():
 def login():
     email = driver.find_element(By.ID, "email")
     email.clear()
-    email.send_keys("adm.chmielecki@gmail.com")
+    email.send_keys(admin_email)
     pas = driver.find_element(By.ID, "passwd")
     pas.clear()
-    pas.send_keys("adasadas")
+    pas.send_keys(admin_password)
     pas.send_keys(Keys.RETURN)
 
 
 def assert_window_loaded():
     driver.maximize_window()
     driver.set_window_rect(width=1920, height=1080)
-    driver.get("http://localhost:8001/admin-dev/")
+    driver.get(admin_main_site)
     assert "lampyiswiatlo" in driver.title
 
 
@@ -78,8 +82,8 @@ def import_xlsx(path):
 
 
 def index_products():
-    driver.get("http://localhost:8001/admin-dev/")
-    driver.get("http://localhost:8001/admin-dev/")
+    driver.get(admin_main_site)
+    driver.get(admin_main_site)
     WebDriverWait(driver, standard_delay).until(EC.presence_of_element_located((By.ID, "subtab-ShopParameters")))
     driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight",
                           driver.find_element(By.ID, "nav-sidebar"))
