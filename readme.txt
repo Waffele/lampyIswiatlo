@@ -11,6 +11,7 @@ Jak to odpalić:
     docker exec [3cyfry id kontenera] chmod -R 777 .
 
     -przy mysql może wywalić jakieś operation not permitted ale ignorujemy to
+8. docker exec [id kontenera] /etc/apache2/sites-available/init.sh   
 
 Wyświetlenie kontenerów
 
