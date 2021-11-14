@@ -1,17 +1,17 @@
 Jak to odpalić:
-1.odpal docker-compose up
-2.przejdź proces instalacji (localhost:8001)
-3.zatrzymaj kontenery
-4.skopiuj zawartosc lampyiswiatlo_shop do /var/www/html kontenera my-prestashop
+1.odpal docker-compose up -d
+2. docker exec [id kontenera presty] /etc/apache2/sites-available/init.sh   
+3.przejdź proces instalacji (localhost:80)
+4.zatrzymaj kontenery
+5.skopiuj zawartosc lampyiswiatlo_shop do /var/www/html kontenera my-prestashop
     docker cp ./lampyiswiatlo_shop/html/. [3cyfry id kontenera]:/var/www/html/
-5.skopiuj lampyiswiatlo_db do /var/lib/mysql kontenera my-mysql
+6.skopiuj lampyiswiatlo_db do /var/lib/mysql kontenera my-mysql
     docker cp ./lampyiswiatlo_db/mysql/. [3cyfry id kontenera]:/var/lib/mysql/
-6.odpal kontenery
-7.nadaj uprawnienia kontenerom (mysql i prestashop po kolei)
+7.odpal kontenery
+8.nadaj uprawnienia kontenerom (mysql i prestashop po kolei)
     docker exec [3cyfry id kontenera] chmod -R 777 .
 
     -przy mysql może wywalić jakieś operation not permitted ale ignorujemy to
-8. docker exec [id kontenera] /etc/apache2/sites-available/init.sh   
 
 Wyświetlenie kontenerów
 
