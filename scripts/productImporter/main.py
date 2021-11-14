@@ -96,12 +96,12 @@ def index_products():
         EC.presence_of_element_located((By.CSS_SELECTOR, ".alert.alert-success")))
 
 
-driver_path = os.path.join(os.path.dirname(__file__), 'drivers/win/chromedriver.exe')
+driver_path = os.path.join(os.path.dirname(__file__), './chromedriver.exe')
 driver = webdriver.Chrome(chrome_options=prepare_options(), executable_path=driver_path)
 assert_window_loaded()
 login()
 go_to_import_screen()
-import_xlsx(os.path.join(os.path.dirname(__file__), 'products.xlsx'))
+import_xlsx(os.path.join(os.path.dirname(__file__), 'test.xlsx'))
 index_products()
 driver.close()
 print("import done")
