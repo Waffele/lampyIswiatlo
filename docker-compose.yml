@@ -1,49 +1,20 @@
 version: '3.3'
 
-volumes:
-  shop:
-  db:
-
 services:
-  my-mysql:
-    image: mysql:5.7
-    volumes:
-      - db:/var/lib/mysql
+  be_180158:
+    image: hubertbrokos/be_prestashop
     ports:
-      - '3306:3306'
-    environment:
-      MYSQL_ROOT_PASSWORD: prestashop
-      MYSQL_DATABASE: prestashop
+      - 80158:80
+      - 80159:443
     restart: always
-
-  my-prestashop:
-    depends_on:
-      - my-mysql
-    image: prestashop/prestashop:1.7.7.8
-    build:
-      context: .
     environment:
-      DISABLE_MAKE: 0
       PS_INSTALL_AUTO: 0
-      DB_PASSWD: prestashop
-      DB_NAME: prestashop
-      DB_SERVER: shop
-      PS_DOMAIN: localhost
-      PS_FOLDER_INSTALL: install-dev
-      PS_FOLDER_ADMIN: admin-dev
-    restart: always
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - shop:/var/www/html
-      - ./ssl/:/etc/apache2/sites-available
-
-  my-phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    ports:
-      -  8080:80
-    environment:
-      PMA_HOST: my-mysql
-    depends_on:
-      - my-mysql
+      PS_ERASE_DB: 0
+      DB_HOST: actina15.maas
+      DB_USER: be_180158
+      DB_PASSWD: okon
+      DB_NAME: be_180158_db
+      PS_DEV_MODE: 0
+      ALLOW_OVERRIDE: 1
+    deploy:
+      replicas: 1
