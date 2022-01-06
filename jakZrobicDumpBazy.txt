@@ -1,0 +1,8 @@
+
+Aby zrobić dump:
+
+docker exec d7 sh -c 'exec mysqldump -u root -pprestashop prestashop' > ./dbdump/all.sql
+
+Aby wgrać dump:
+
+docker exec -i some-mysql sh -c 'exec mysql -u<user> -p<password> <database>' < /some/path/on/your/host/all-databases.sql
