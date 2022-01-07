@@ -1,6 +1,7 @@
 Jak to odpalić:
 1.odpal docker-compose up -d
-2. docker exec [id kontenera presty] /etc/apache2/sites-available/init.sh   
+2.1. docker exec -t [id kontenera presty] bash 
+2.2. bash /etc/apache2/sites-available/init.sh   
 3.przejdź proces instalacji (localhost:80)
 4.zatrzymaj kontenery
 5.skopiuj zawartosc lampyiswiatlo_shop do /var/www/html kontenera my-prestashop
