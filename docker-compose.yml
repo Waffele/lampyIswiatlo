@@ -4,8 +4,8 @@ services:
   be_180158:
     image: hubertbrokos/be_prestashop
     ports:
-      - 80158:80
-      - 80159:443
+      - 18015:80
+      - 18014:443
     restart: always
     environment:
       PS_INSTALL_AUTO: 0
