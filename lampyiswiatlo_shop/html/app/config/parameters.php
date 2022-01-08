@@ -1,11 +1,11 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => 'my-mysql',
-    'database_port' => '',
-    'database_name' => 'prestashop',
-    'database_user' => 'root',
-    'database_password' => 'prestashop',
+    'database_host' => 'actina15.maas',
+    'database_port' => '3306',
+    'database_name' => 'BE_180158_db',
+    'database_user' => 'BE_180158',
+    'database_password' => 'okon',
     'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
