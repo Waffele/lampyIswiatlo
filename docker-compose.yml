@@ -8,13 +8,20 @@ services:
       - 18014:443
     restart: always
     environment:
-      PS_INSTALL_AUTO: 0
-      PS_ERASE_DB: 0
-      DB_HOST: actina15.maas
-      DB_USER: be_180158
-      DB_PASSWD: okon
-      DB_NAME: be_180158_db
-      PS_DEV_MODE: 0
-      ALLOW_OVERRIDE: 1
+       PS_DEV_MODE: 1
+       PS_INSTALL_AUTO: 0
+       PS_ERASE_DB: 0
+       DB_SERVER: actina15.maas
+       DB_USER: be_180158
+       DB_PASSWD: okon
+       DB_NAME: be_180158_db
+       PS_DOMAIN: localhost:18015
+       PS_DOMAIN_SSL: localhost:18014
+       PS_ENABLE_SSL: 1
     deploy:
       replicas: 1
+
+networks:
+  admin-mysql_default:
+    external:
+      name: admin-mysql_default
