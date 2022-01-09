@@ -96,7 +96,6 @@ type Product {
   name: String!
   quantity: Float!
   amount: Float!
-  stock: Float!
 }
 
 type ProductPeriod {

@@ -36,10 +36,6 @@ class AdminMetricsSettingsController extends ModuleAdminController
         $accountsInstaller = $this->module->getService('ps_accounts.installer');
         $accountsInstaller->install();
 
-        /** @var PrestaShop\Module\Ps_metrics\Handler\NativeStatsHandler $nativeStats */
-        $nativeStats = $this->module->getService('ps_metrics.handler.native.stats');
-        $nativeStats->installIfIsOnboarded();
-
         $this->loadSettingsAssets(\Tools::getValue('google_message_error'), \Tools::getValue('countProperty'));
         $this->loadPsAccountsAssets();
 
@@ -92,11 +88,6 @@ class AdminMetricsSettingsController extends ModuleAdminController
     {
         $this->context->smarty->assign('pathSettingsVendor', $this->module->getPathUri() . 'views/js/chunk-vendors-metrics-settings.' . $this->module->version . '.js');
         $this->context->smarty->assign('pathSettingsApp', $this->module->getPathUri() . 'views/js/app-metrics-settings.' . $this->module->version . '.js');
-
-        /** @var PrestaShop\PsAccountsInstaller\Installer\Facade\PsAccounts $accounts */
-        $accounts = $this->module->getService('ps_accounts.facade');
-        $psAccounts = $accounts->getPsAccountsService();
-        $this->context->smarty->assign('urlAccountsVueCdn', $psAccounts->getAccountsVueCdn());
 
         /** @var PrestaShop\Module\Ps_metrics\Presenter\Store\StorePresenter $storePresenter */
         $storePresenter = $this->module->getService('ps_metrics.presenter.store.store');

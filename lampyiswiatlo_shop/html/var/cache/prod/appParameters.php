@@ -2,7 +2,7 @@
   'parameters' => 
   array (
     'database_host' => 'my-mysql',
-    'database_port' => '',
+    'database_port' => '3306',
     'database_name' => 'prestashop',
     'database_user' => 'root',
     'database_password' => 'prestashop',
@@ -12,14 +12,14 @@
     'mailer_host' => '127.0.0.1',
     'mailer_user' => NULL,
     'mailer_password' => NULL,
-    'secret' => 'wCOq3pdp5SXPwQUNq5f8WzjTURqU8ERuSkPhbAnrj6w4nD18K8kHOO6Ucf2972m9',
+    'secret' => 'fn8ErJJtyu66qKKuqUxXds2y7xbbDaBWbvaOOoJTyxBQzJ3Hx996kJh8Ja9AckHN',
     'ps_caching' => 'CacheMemcache',
     'ps_cache_enable' => false,
-    'ps_creation_date' => '2022-01-06',
+    'ps_creation_date' => '2021-11-14',
     'locale' => 'pl-PL',
     'use_debug_toolbar' => true,
-    'cookie_key' => 'pnnnFA576iyAxTdRMXJKVd8n4f8Jp8aMz3cA82KmwbZNZCwLSA3ihLIxD5CfLIua',
-    'cookie_iv' => '8EJ8UBfa3ghYrz8CPwES7t2Q0UWO6DUi',
-    'new_cookie_key' => 'def000007e72c3624373bd2cca3ec14a99c9f842a2d4d4ce7438844b8ccbcdeffe8408cc57c8c78f5164325d81d526189dad1669b09e473bb9981c3c0406faa7466c5fa9',
+    'cookie_key' => 'gQUzsNUOLxFfFPo4NTm1tmNhmZduah5NQHA2HEBFo6KPh4XPv51vrVjPcBTp4QO9',
+    'cookie_iv' => 'JtFcYqBN4AWBP2qrdXH3iXfF6txhfY5j',
+    'new_cookie_key' => 'def00000a2e64afae29d9205512b343b68624b374627d5a0774e303f411129f8c6b2466bea6aec2554f490a68301a66b7540804f8c01e5d9d43314d2f275dab60be67992',
   ),
 );

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2022-01-07 17:04:01
+/* Smarty version 3.1.39, created on 2022-01-09 15:09:36
   from '/var/www/html/pdf/invoice.product-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61d86471431ff3_36118955',
+  'unifunc' => 'content_61daeca0d52ed7_14396038',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '466df932100d62157bfc66b900e090c2cc58fb35' => 
     array (
       0 => '/var/www/html/pdf/invoice.product-tab.tpl',
-      1 => 1631177245,
+      1 => 1636895738,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61d86471431ff3_36118955 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61daeca0d52ed7_14396038 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/vendor/smarty/smarty/libs/plugins/function.cycle.php','function'=>'smarty_function_cycle',),));
 ?>
 <table class="product" width="100%" cellpadding="4" cellspacing="0">

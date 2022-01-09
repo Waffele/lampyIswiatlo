@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '674685d471a92a47c9274f096b7ddcd30dc75f2d',
+        'reference' => '6525c8d45f3c9e9d3872fa50f226833346778903',
         'name' => 'prestashop/ps_metrics',
         'dev' => false,
     ),
@@ -103,7 +103,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '674685d471a92a47c9274f096b7ddcd30dc75f2d',
+            'reference' => '6525c8d45f3c9e9d3872fa50f226833346778903',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(

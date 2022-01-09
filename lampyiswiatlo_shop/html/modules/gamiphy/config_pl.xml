@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>gamiphy</name>
+    <displayName><![CDATA[- Loyalty Station -]]></displayName>
+    <version><![CDATA[1.1.4]]></version>
+    <description><![CDATA[Empower your store with gamified Loyalty and social experiences that boost your sales and conversions]]></description>
+    <author><![CDATA[Gamiphy]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

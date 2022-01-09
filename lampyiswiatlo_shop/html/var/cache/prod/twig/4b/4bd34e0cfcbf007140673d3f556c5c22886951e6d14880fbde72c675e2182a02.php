@@ -124,25 +124,25 @@ class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aed
     <div class=\"tab-pane d-print-block fade show active\" id=\"historyTabContent\" role=\"tabpanel\" aria-labelledby=\"historyTab\">
       ";
         // line 72
-        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 72, "536287304")->display($context);
+        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 72, "509514724")->display($context);
         // line 80
         echo "    </div>
     <div class=\"tab-pane d-print-block fade\" id=\"orderDocumentsTabContent\" role=\"tabpanel\" aria-labelledby=\"orderDocumentsTab\">
       ";
         // line 82
-        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 82, "1891701486")->display($context);
+        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 82, "227465473")->display($context);
         // line 90
         echo "    </div>
     <div class=\"tab-pane d-print-block fade\" id=\"orderShippingTabContent\" role=\"tabpanel\" aria-labelledby=\"orderShippingTab\">
       ";
         // line 92
-        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 92, "453208836")->display($context);
+        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 92, "2112056045")->display($context);
         // line 100
         echo "    </div>
     <div class=\"tab-pane d-print-block fade\" id=\"orderReturnsTabContent\" role=\"tabpanel\" aria-labelledby=\"orderReturnsTab\">
       ";
         // line 102
-        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 102, "123679675")->display($context);
+        $this->loadTemplate("@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", "@PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig", 102, "1434318585")->display($context);
         // line 110
         echo "    </div>
   </div>
@@ -208,7 +208,7 @@ class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aed
 
 
 /* @PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig */
-class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___536287304 extends \Twig\Template
+class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___509514724 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -283,7 +283,7 @@ class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aed
 
 
 /* @PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig */
-class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___1891701486 extends \Twig\Template
+class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___227465473 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -358,7 +358,7 @@ class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aed
 
 
 /* @PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig */
-class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___453208836 extends \Twig\Template
+class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___2112056045 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -433,7 +433,7 @@ class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aed
 
 
 /* @PrestaShop/Admin/Sell/Order/Order/Blocks/View/details.html.twig */
-class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___123679675 extends \Twig\Template
+class __TwigTemplate_51cdf7462cb2dbd4fdfffad43971d1b72b10b9c7db5b96b8332ad252aedef7af___1434318585 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {

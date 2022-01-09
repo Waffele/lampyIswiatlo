@@ -68,33 +68,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'prestashop\\module\\prestashopfacebook\\repository\\tabrepository' => 'PrestaShop\\Module\\PrestashopFacebook\\Repository\\TabRepository',
             'prestashop\\module\\ps_facebook\\tracker\\segment' => 'PrestaShop\\Module\\Ps_facebook\\Tracker\\Segment',
             'prestashop\\module\\ps_facebook\\translations\\psfacebooktranslations' => 'PrestaShop\\Module\\Ps_facebook\\Translations\\PsFacebookTranslations',
-            'prestashop\\module\\psxmarketingwithgoogle\\adapter\\configurationadapter' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter',
-            'prestashop\\module\\psxmarketingwithgoogle\\buffer\\templatebuffer' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer',
-            'prestashop\\module\\psxmarketingwithgoogle\\builder\\carrierbuilder' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder',
-            'prestashop\\module\\psxmarketingwithgoogle\\config\\env' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env',
-            'prestashop\\module\\psxmarketingwithgoogle\\database\\installer' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Installer',
-            'prestashop\\module\\psxmarketingwithgoogle\\database\\uninstaller' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Uninstaller',
-            'prestashop\\module\\psxmarketingwithgoogle\\factory\\apiclientfactory' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Factory\\ApiClientFactory',
-            'prestashop\\module\\psxmarketingwithgoogle\\handler\\errorhandler' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler',
-            'prestashop\\module\\psxmarketingwithgoogle\\handler\\remarketinghookhandler' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\RemarketingHookHandler',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\carrierdataprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CarrierDataProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\carteventdataprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CartEventDataProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\conversioneventdataprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ConversionEventDataProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\googletagprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\GoogleTagProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\pagevieweventdataprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PageViewEventDataProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\productdataprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\provider\\purchaseeventdataprovider' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PurchaseEventDataProvider',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\attributesrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\AttributesRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\carrierrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\countryrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\currencyrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CurrencyRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\languagerepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\productrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ProductRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\shoprepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ShopRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\staterepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\tabrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\repository\\taxrepository' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository',
-            'prestashop\\module\\psxmarketingwithgoogle\\tracker\\segment' => 'PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment',
             'prestashop\\psaccountsinstaller\\installer\\facade\\psaccounts' => 'PrestaShop\\PsAccountsInstaller\\Installer\\Facade\\PsAccounts',
             'prestashop\\psaccountsinstaller\\installer\\installer' => 'PrestaShop\\PsAccountsInstaller\\Installer\\Installer',
             'ps_metrics.graphql.dataloaders.setproducttouradvanceddone' => 'ps_metrics.graphql.dataloaders.setProductTourAdvancedDone',
@@ -142,35 +115,8 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'PrestaShop\\Module\\PrestashopFacebook\\Repository\\TabRepository' => 'getTabRepositoryService',
             'PrestaShop\\Module\\Ps_facebook\\Tracker\\Segment' => 'getSegmentService',
             'PrestaShop\\Module\\Ps_facebook\\Translations\\PsFacebookTranslations' => 'getPsFacebookTranslationsService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter' => 'getConfigurationAdapter2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer' => 'getTemplateBuffer2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder' => 'getCarrierBuilderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env' => 'getEnv2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Installer' => 'getInstaller2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Uninstaller' => 'getUninstaller2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Factory\\ApiClientFactory' => 'getApiClientFactoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler' => 'getErrorHandler2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\RemarketingHookHandler' => 'getRemarketingHookHandlerService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CarrierDataProvider' => 'getCarrierDataProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CartEventDataProvider' => 'getCartEventDataProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ConversionEventDataProvider' => 'getConversionEventDataProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\GoogleTagProvider' => 'getGoogleTagProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PageViewEventDataProvider' => 'getPageViewEventDataProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider' => 'getProductDataProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PurchaseEventDataProvider' => 'getPurchaseEventDataProviderService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\AttributesRepository' => 'getAttributesRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository' => 'getCarrierRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository' => 'getCountryRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CurrencyRepository' => 'getCurrencyRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository' => 'getLanguageRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ProductRepository' => 'getProductRepository2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ShopRepository' => 'getShopRepository2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository' => 'getStateRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository' => 'getTabRepository2Service',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository' => 'getTaxRepositoryService',
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment' => 'getSegment2Service',
             'PrestaShop\\PsAccountsInstaller\\Installer\\Facade\\PsAccounts' => 'getPsAccountsService',
-            'PrestaShop\\PsAccountsInstaller\\Installer\\Installer' => 'getInstaller3Service',
+            'PrestaShop\\PsAccountsInstaller\\Installer\\Installer' => 'getInstaller2Service',
             'annotation_reader' => 'getAnnotationReaderService',
             'cache.doctrine.orm.default.result' => 'getCache_Doctrine_Orm_Default_ResultService',
             'context.static' => 'getContext_StaticService',
@@ -309,7 +255,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_metrics.graphql.dataloaders.tipscards' => 'getPsMetrics_Graphql_Dataloaders_TipscardsService',
             'ps_metrics.graphql.dataloaders.uniqueusers' => 'getPsMetrics_Graphql_Dataloaders_UniqueusersService',
             'ps_metrics.handler.guzzleapi' => 'getPsMetrics_Handler_GuzzleapiService',
-            'ps_metrics.handler.native.stats' => 'getPsMetrics_Handler_Native_StatsService',
             'ps_metrics.helper.api' => 'getPsMetrics_Helper_ApiService',
             'ps_metrics.helper.data' => 'getPsMetrics_Helper_DataService',
             'ps_metrics.helper.db' => 'getPsMetrics_Helper_DbService',
@@ -334,6 +279,7 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_metrics.middleware.response.default' => 'getPsMetrics_Middleware_Response_DefaultService',
             'ps_metrics.middleware.sentry' => 'getPsMetrics_Middleware_SentryService',
             'ps_metrics.module' => 'getPsMetrics_ModuleService',
+            'ps_metrics.module.dashboard.modules' => 'getPsMetrics_Module_Dashboard_ModulesService',
             'ps_metrics.module.gainstaller' => 'getPsMetrics_Module_GainstallerService',
             'ps_metrics.module.install' => 'getPsMetrics_Module_InstallService',
             'ps_metrics.module.uninstall' => 'getPsMetrics_Module_UninstallService',
@@ -348,23 +294,11 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_metrics.repository.hookmodule' => 'getPsMetrics_Repository_HookmoduleService',
             'ps_metrics.repository.orders' => 'getPsMetrics_Repository_OrdersService',
             'ps_metrics.repository.payment' => 'getPsMetrics_Repository_PaymentService',
-            'ps_metrics.statstab.manager' => 'getPsMetrics_Statstab_ManagerService',
             'ps_metrics.tracker.segment' => 'getPsMetrics_Tracker_SegmentService',
             'ps_metrics.translation.dashboard' => 'getPsMetrics_Translation_DashboardService',
             'ps_metrics.translation.settings' => 'getPsMetrics_Translation_SettingsService',
             'ps_metrics.validation.processselectaccountanalytics' => 'getPsMetrics_Validation_ProcessselectaccountanalyticsService',
             'ps_metrics.validation.retrievedata' => 'getPsMetrics_Validation_RetrievedataService',
-            'psxmarketingwithgoogle' => 'getPsxmarketingwithgoogleService',
-            'psxmarketingwithgoogle.context' => 'getPsxmarketingwithgoogle_ContextService',
-            'psxmarketingwithgoogle.controller' => 'getPsxmarketingwithgoogle_ControllerService',
-            'psxmarketingwithgoogle.cookie' => 'getPsxmarketingwithgoogle_CookieService',
-            'psxmarketingwithgoogle.country' => 'getPsxmarketingwithgoogle_CountryService',
-            'psxmarketingwithgoogle.currency' => 'getPsxmarketingwithgoogle_CurrencyService',
-            'psxmarketingwithgoogle.db' => 'getPsxmarketingwithgoogle_DbService',
-            'psxmarketingwithgoogle.language' => 'getPsxmarketingwithgoogle_LanguageService',
-            'psxmarketingwithgoogle.link' => 'getPsxmarketingwithgoogle_LinkService',
-            'psxmarketingwithgoogle.shop' => 'getPsxmarketingwithgoogle_ShopService',
-            'psxmarketingwithgoogle.smarty' => 'getPsxmarketingwithgoogle_SmartyService',
             'theme_manager' => 'getThemeManagerService',
             'theme_validator' => 'getThemeValidatorService',
         ];
@@ -412,33 +346,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'PrestaShop\\Module\\PrestashopFacebook\\Repository\\TabRepository' => true,
             'PrestaShop\\Module\\Ps_facebook\\Tracker\\Segment' => true,
             'PrestaShop\\Module\\Ps_facebook\\Translations\\PsFacebookTranslations' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Installer' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Uninstaller' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Factory\\ApiClientFactory' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\RemarketingHookHandler' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CarrierDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CartEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ConversionEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\GoogleTagProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PageViewEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PurchaseEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\AttributesRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CurrencyRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ProductRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ShopRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment' => true,
             'PrestaShop\\PsAccountsInstaller\\Installer\\Facade\\PsAccounts' => true,
             'PrestaShop\\PsAccountsInstaller\\Installer\\Installer' => true,
             'annotation_reader' => true,
@@ -496,17 +403,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_facebook.shop' => true,
             'ps_facebook.smarty' => true,
             'ps_metrics.module' => true,
-            'psxmarketingwithgoogle' => true,
-            'psxmarketingwithgoogle.context' => true,
-            'psxmarketingwithgoogle.controller' => true,
-            'psxmarketingwithgoogle.cookie' => true,
-            'psxmarketingwithgoogle.country' => true,
-            'psxmarketingwithgoogle.currency' => true,
-            'psxmarketingwithgoogle.db' => true,
-            'psxmarketingwithgoogle.language' => true,
-            'psxmarketingwithgoogle.link' => true,
-            'psxmarketingwithgoogle.shop' => true,
-            'psxmarketingwithgoogle.smarty' => true,
             'theme_manager' => true,
             'theme_validator' => true,
         ];
@@ -575,33 +471,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'PrestaShop\\Module\\PrestashopFacebook\\Repository\\TabRepository' => true,
             'PrestaShop\\Module\\Ps_facebook\\Tracker\\Segment' => true,
             'PrestaShop\\Module\\Ps_facebook\\Translations\\PsFacebookTranslations' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Installer' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Uninstaller' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Factory\\ApiClientFactory' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\RemarketingHookHandler' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CarrierDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CartEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ConversionEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\GoogleTagProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PageViewEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PurchaseEventDataProvider' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\AttributesRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CurrencyRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ProductRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ShopRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository' => true,
-            'PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment' => true,
             'PrestaShop\\PsAccountsInstaller\\Installer\\Facade\\PsAccounts' => true,
             'PrestaShop\\PsAccountsInstaller\\Installer\\Installer' => true,
             'Psr\\Container\\ContainerInterface' => true,
@@ -713,17 +582,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_facebook.shop' => true,
             'ps_facebook.smarty' => true,
             'ps_metrics.module' => true,
-            'psxmarketingwithgoogle' => true,
-            'psxmarketingwithgoogle.context' => true,
-            'psxmarketingwithgoogle.controller' => true,
-            'psxmarketingwithgoogle.cookie' => true,
-            'psxmarketingwithgoogle.country' => true,
-            'psxmarketingwithgoogle.currency' => true,
-            'psxmarketingwithgoogle.db' => true,
-            'psxmarketingwithgoogle.language' => true,
-            'psxmarketingwithgoogle.link' => true,
-            'psxmarketingwithgoogle.shop' => true,
-            'psxmarketingwithgoogle.smarty' => true,
             'theme_manager' => true,
             'theme_validator' => true,
         ];
@@ -1646,16 +1504,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     }
 
     /**
-     * Gets the public 'ps_metrics.handler.native.stats' shared service.
-     *
-     * @return \PrestaShop\Module\Ps_metrics\Handler\NativeStatsHandler
-     */
-    protected function getPsMetrics_Handler_Native_StatsService()
-    {
-        return $this->services['ps_metrics.handler.native.stats'] = new \PrestaShop\Module\Ps_metrics\Handler\NativeStatsHandler(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_accounts.facade']) ? $this->services['ps_accounts.facade'] : $this->getPsAccounts_FacadeService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.repository.configuration']) ? $this->services['ps_metrics.repository.configuration'] : $this->getPsMetrics_Repository_ConfigurationService()) && false ?: '_'});
-    }
-
-    /**
      * Gets the public 'ps_metrics.helper.api' shared service.
      *
      * @return \PrestaShop\Module\Ps_metrics\Helper\ApiHelper
@@ -1886,6 +1734,16 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     }
 
     /**
+     * Gets the public 'ps_metrics.module.dashboard.modules' shared service.
+     *
+     * @return \PrestaShop\Module\Ps_metrics\Module\DashboardModules
+     */
+    protected function getPsMetrics_Module_Dashboard_ModulesService()
+    {
+        return $this->services['ps_metrics.module.dashboard.modules'] = new \PrestaShop\Module\Ps_metrics\Module\DashboardModules(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.repository.configuration']) ? $this->services['ps_metrics.repository.configuration'] : $this->getPsMetrics_Repository_ConfigurationService()) && false ?: '_'});
+    }
+
+    /**
      * Gets the public 'ps_metrics.module.gainstaller' shared service.
      *
      * @return \PrestaShop\Module\Ps_metrics\Module\GAInstaller
@@ -1922,7 +1780,7 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsMetrics_Presenter_Store_ContextService()
     {
-        return $this->services['ps_metrics.presenter.store.context'] = new \PrestaShop\Module\Ps_metrics\Presenter\Store\Context\ContextPresenter(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.context.prestashop']) ? $this->services['ps_metrics.context.prestashop'] : ($this->services['ps_metrics.context.prestashop'] = new \PrestaShop\Module\Ps_metrics\Context\PrestaShopContext())) && false ?: '_'}, ${($_ = isset($this->services['ps_accounts.facade']) ? $this->services['ps_accounts.facade'] : $this->getPsAccounts_FacadeService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.adapter.link']) ? $this->services['ps_metrics.adapter.link'] : $this->getPsMetrics_Adapter_LinkService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.repository.configuration']) ? $this->services['ps_metrics.repository.configuration'] : $this->getPsMetrics_Repository_ConfigurationService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.shops']) ? $this->services['ps_metrics.provider.shops'] : $this->getPsMetrics_Provider_ShopsService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.analyticsaccountslist']) ? $this->services['ps_metrics.provider.analyticsaccountslist'] : $this->getPsMetrics_Provider_AnalyticsaccountslistService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.api.http']) ? $this->services['ps_metrics.api.http'] : $this->getPsMetrics_Api_HttpService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.helper.tools']) ? $this->services['ps_metrics.helper.tools'] : ($this->services['ps_metrics.helper.tools'] = new \PrestaShop\Module\Ps_metrics\Helper\ToolsHelper())) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.helper.db']) ? $this->services['ps_metrics.helper.db'] : $this->getPsMetrics_Helper_DbService()) && false ?: '_'});
+        return $this->services['ps_metrics.presenter.store.context'] = new \PrestaShop\Module\Ps_metrics\Presenter\Store\Context\ContextPresenter(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.context.prestashop']) ? $this->services['ps_metrics.context.prestashop'] : ($this->services['ps_metrics.context.prestashop'] = new \PrestaShop\Module\Ps_metrics\Context\PrestaShopContext())) && false ?: '_'}, ${($_ = isset($this->services['ps_accounts.facade']) ? $this->services['ps_accounts.facade'] : $this->getPsAccounts_FacadeService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.adapter.link']) ? $this->services['ps_metrics.adapter.link'] : $this->getPsMetrics_Adapter_LinkService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.repository.configuration']) ? $this->services['ps_metrics.repository.configuration'] : $this->getPsMetrics_Repository_ConfigurationService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.shops']) ? $this->services['ps_metrics.provider.shops'] : $this->getPsMetrics_Provider_ShopsService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.module.dashboard.modules']) ? $this->services['ps_metrics.module.dashboard.modules'] : $this->getPsMetrics_Module_Dashboard_ModulesService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.analyticsaccountslist']) ? $this->services['ps_metrics.provider.analyticsaccountslist'] : $this->getPsMetrics_Provider_AnalyticsaccountslistService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.api.http']) ? $this->services['ps_metrics.api.http'] : $this->getPsMetrics_Api_HttpService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.helper.tools']) ? $this->services['ps_metrics.helper.tools'] : ($this->services['ps_metrics.helper.tools'] = new \PrestaShop\Module\Ps_metrics\Helper\ToolsHelper())) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.helper.db']) ? $this->services['ps_metrics.helper.db'] : $this->getPsMetrics_Helper_DbService()) && false ?: '_'});
     }
 
     /**
@@ -1942,7 +1800,7 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsMetrics_Presenter_Store_SettingsService()
     {
-        return $this->services['ps_metrics.presenter.store.settings'] = new \PrestaShop\Module\Ps_metrics\Presenter\Store\Settings\SettingsPresenter(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.context.prestashop']) ? $this->services['ps_metrics.context.prestashop'] : ($this->services['ps_metrics.context.prestashop'] = new \PrestaShop\Module\Ps_metrics\Context\PrestaShopContext())) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.translation.settings']) ? $this->services['ps_metrics.translation.settings'] : $this->getPsMetrics_Translation_SettingsService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.adapter.link']) ? $this->services['ps_metrics.adapter.link'] : $this->getPsMetrics_Adapter_LinkService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.repository.configuration']) ? $this->services['ps_metrics.repository.configuration'] : $this->getPsMetrics_Repository_ConfigurationService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.shops']) ? $this->services['ps_metrics.provider.shops'] : $this->getPsMetrics_Provider_ShopsService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.analyticsaccountslist']) ? $this->services['ps_metrics.provider.analyticsaccountslist'] : $this->getPsMetrics_Provider_AnalyticsaccountslistService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.googletag']) ? $this->services['ps_metrics.provider.googletag'] : $this->getPsMetrics_Provider_GoogletagService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.module.gainstaller']) ? $this->services['ps_metrics.module.gainstaller'] : $this->getPsMetrics_Module_GainstallerService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.api.http']) ? $this->services['ps_metrics.api.http'] : $this->getPsMetrics_Api_HttpService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.handler.native.stats']) ? $this->services['ps_metrics.handler.native.stats'] : $this->getPsMetrics_Handler_Native_StatsService()) && false ?: '_'});
+        return $this->services['ps_metrics.presenter.store.settings'] = new \PrestaShop\Module\Ps_metrics\Presenter\Store\Settings\SettingsPresenter(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.context.prestashop']) ? $this->services['ps_metrics.context.prestashop'] : ($this->services['ps_metrics.context.prestashop'] = new \PrestaShop\Module\Ps_metrics\Context\PrestaShopContext())) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.translation.settings']) ? $this->services['ps_metrics.translation.settings'] : $this->getPsMetrics_Translation_SettingsService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.adapter.link']) ? $this->services['ps_metrics.adapter.link'] : $this->getPsMetrics_Adapter_LinkService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.repository.configuration']) ? $this->services['ps_metrics.repository.configuration'] : $this->getPsMetrics_Repository_ConfigurationService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.shops']) ? $this->services['ps_metrics.provider.shops'] : $this->getPsMetrics_Provider_ShopsService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.analyticsaccountslist']) ? $this->services['ps_metrics.provider.analyticsaccountslist'] : $this->getPsMetrics_Provider_AnalyticsaccountslistService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.provider.googletag']) ? $this->services['ps_metrics.provider.googletag'] : $this->getPsMetrics_Provider_GoogletagService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.module.gainstaller']) ? $this->services['ps_metrics.module.gainstaller'] : $this->getPsMetrics_Module_GainstallerService()) && false ?: '_'}, ${($_ = isset($this->services['ps_metrics.api.http']) ? $this->services['ps_metrics.api.http'] : $this->getPsMetrics_Api_HttpService()) && false ?: '_'});
     }
 
     /**
@@ -2023,16 +1881,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     protected function getPsMetrics_Repository_PaymentService()
     {
         return $this->services['ps_metrics.repository.payment'] = new \PrestaShop\Module\Ps_metrics\Repository\PaymentRepository();
-    }
-
-    /**
-     * Gets the public 'ps_metrics.statstab.manager' shared service.
-     *
-     * @return \PrestaShop\Module\Ps_metrics\StatsTabManager
-     */
-    protected function getPsMetrics_Statstab_ManagerService()
-    {
-        return $this->services['ps_metrics.statstab.manager'] = new \PrestaShop\Module\Ps_metrics\StatsTabManager(${($_ = isset($this->services['ps_metrics.module']) ? $this->services['ps_metrics.module'] : $this->getPsMetrics_ModuleService()) && false ?: '_'}, ${($_ = isset($this->services['ps_accounts.facade']) ? $this->services['ps_accounts.facade'] : $this->getPsAccounts_FacadeService()) && false ?: '_'});
     }
 
     /**
@@ -2496,276 +2344,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     }
 
     /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Adapter\ConfigurationAdapter' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Adapter\ConfigurationAdapter
-     */
-    protected function getConfigurationAdapter2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Adapter\ConfigurationAdapter(${($_ = isset($this->services['psxmarketingwithgoogle.shop']) ? $this->services['psxmarketingwithgoogle.shop'] : $this->getPsxmarketingwithgoogle_ShopService()) && false ?: '_'}->id);
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Buffer\TemplateBuffer' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Buffer\TemplateBuffer
-     */
-    protected function getTemplateBuffer2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Buffer\TemplateBuffer();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Builder\CarrierBuilder' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Builder\CarrierBuilder
-     */
-    protected function getCarrierBuilderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Builder\CarrierBuilder(${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository'] : $this->getCarrierRepositoryService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository'] : $this->getCountryRepositoryService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository'] : $this->getStateRepositoryService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository'] : $this->getTaxRepositoryService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter'] : $this->getConfigurationAdapter2Service()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Config\Env' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Config\Env
-     */
-    protected function getEnv2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Config\Env();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Database\Installer' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Database\Installer
-     */
-    protected function getInstaller2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Installer'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Database\Installer(${($_ = isset($this->services['psxmarketingwithgoogle']) ? $this->services['psxmarketingwithgoogle'] : $this->getPsxmarketingwithgoogleService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment'] : $this->getSegment2Service()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler'] : ($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Handler\ErrorHandler())) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Database\Uninstaller' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Database\Uninstaller
-     */
-    protected function getUninstaller2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Database\\Uninstaller'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Database\Uninstaller(${($_ = isset($this->services['psxmarketingwithgoogle']) ? $this->services['psxmarketingwithgoogle'] : $this->getPsxmarketingwithgoogleService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository'] : ($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\TabRepository())) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment'] : $this->getSegment2Service()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler'] : ($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Handler\ErrorHandler())) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Factory\ApiClientFactory' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ApiClientFactory
-     */
-    protected function getApiClientFactoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Factory\\ApiClientFactory'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ApiClientFactory(${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env'] : ($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Config\\Env'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Config\Env())) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Handler\ErrorHandler' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Handler\ErrorHandler
-     */
-    protected function getErrorHandler2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\ErrorHandler'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Handler\ErrorHandler();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Handler\RemarketingHookHandler' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Handler\RemarketingHookHandler
-     */
-    protected function getRemarketingHookHandlerService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Handler\\RemarketingHookHandler'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Handler\RemarketingHookHandler(${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter'] : $this->getConfigurationAdapter2Service()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer'] : ($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Buffer\\TemplateBuffer'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Buffer\TemplateBuffer())) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle']) ? $this->services['psxmarketingwithgoogle'] : $this->getPsxmarketingwithgoogleService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\CarrierDataProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\CarrierDataProvider
-     */
-    protected function getCarrierDataProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CarrierDataProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\CarrierDataProvider(${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter'] : $this->getConfigurationAdapter2Service()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Builder\\CarrierBuilder'] : $this->getCarrierBuilderService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository'] : $this->getCarrierRepositoryService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\CartEventDataProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\CartEventDataProvider
-     */
-    protected function getCartEventDataProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\CartEventDataProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\CartEventDataProvider(${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\ConversionEventDataProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\ConversionEventDataProvider
-     */
-    protected function getConversionEventDataProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ConversionEventDataProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\ConversionEventDataProvider(${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\GoogleTagProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\GoogleTagProvider
-     */
-    protected function getGoogleTagProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\GoogleTagProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\GoogleTagProvider();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\PageViewEventDataProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\PageViewEventDataProvider
-     */
-    protected function getPageViewEventDataProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PageViewEventDataProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\PageViewEventDataProvider(${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\ProductDataProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\ProductDataProvider
-     */
-    protected function getProductDataProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\ProductDataProvider(${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Provider\PurchaseEventDataProvider' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Provider\PurchaseEventDataProvider
-     */
-    protected function getPurchaseEventDataProviderService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\PurchaseEventDataProvider'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Provider\PurchaseEventDataProvider(${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Provider\\ProductDataProvider'] : $this->getProductDataProviderService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter'] : $this->getConfigurationAdapter2Service()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository'] : ($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\LanguageRepository())) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository'] : $this->getCountryRepositoryService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\AttributesRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\AttributesRepository
-     */
-    protected function getAttributesRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\AttributesRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\AttributesRepository(${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\CarrierRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\CarrierRepository
-     */
-    protected function getCarrierRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CarrierRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\CarrierRepository(${($_ = isset($this->services['psxmarketingwithgoogle.db']) ? $this->services['psxmarketingwithgoogle.db'] : $this->getPsxmarketingwithgoogle_DbService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\CountryRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\CountryRepository
-     */
-    protected function getCountryRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CountryRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\CountryRepository(${($_ = isset($this->services['psxmarketingwithgoogle.db']) ? $this->services['psxmarketingwithgoogle.db'] : $this->getPsxmarketingwithgoogle_DbService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.country']) ? $this->services['psxmarketingwithgoogle.country'] : $this->getPsxmarketingwithgoogle_CountryService()) && false ?: '_'}, ${($_ = isset($this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter']) ? $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Adapter\\ConfigurationAdapter'] : $this->getConfigurationAdapter2Service()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\CurrencyRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\CurrencyRepository
-     */
-    protected function getCurrencyRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\CurrencyRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\CurrencyRepository(${($_ = isset($this->services['psxmarketingwithgoogle.currency']) ? $this->services['psxmarketingwithgoogle.currency'] : $this->getPsxmarketingwithgoogle_CurrencyService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\LanguageRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\LanguageRepository
-     */
-    protected function getLanguageRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\LanguageRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\LanguageRepository();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\ProductRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\ProductRepository
-     */
-    protected function getProductRepository2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ProductRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\ProductRepository();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\ShopRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\ShopRepository
-     */
-    protected function getShopRepository2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\ShopRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\ShopRepository();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\StateRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\StateRepository
-     */
-    protected function getStateRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\StateRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\StateRepository(${($_ = isset($this->services['psxmarketingwithgoogle.db']) ? $this->services['psxmarketingwithgoogle.db'] : $this->getPsxmarketingwithgoogle_DbService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\TabRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\TabRepository
-     */
-    protected function getTabRepository2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TabRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\TabRepository();
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Repository\TaxRepository' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Repository\TaxRepository
-     */
-    protected function getTaxRepositoryService()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Repository\\TaxRepository'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Repository\TaxRepository(${($_ = isset($this->services['psxmarketingwithgoogle.db']) ? $this->services['psxmarketingwithgoogle.db'] : $this->getPsxmarketingwithgoogle_DbService()) && false ?: '_'}, ${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
-     * Gets the private 'PrestaShop\Module\PsxMarketingWithGoogle\Tracker\Segment' shared service.
-     *
-     * @return \PrestaShop\Module\PsxMarketingWithGoogle\Tracker\Segment
-     */
-    protected function getSegment2Service()
-    {
-        return $this->services['PrestaShop\\Module\\PsxMarketingWithGoogle\\Tracker\\Segment'] = new \PrestaShop\Module\PsxMarketingWithGoogle\Tracker\Segment(${($_ = isset($this->services['psxmarketingwithgoogle.context']) ? $this->services['psxmarketingwithgoogle.context'] : $this->getPsxmarketingwithgoogle_ContextService()) && false ?: '_'});
-    }
-
-    /**
      * Gets the private 'PrestaShop\PsAccountsInstaller\Installer\Facade\PsAccounts' shared service.
      *
      * @return \PrestaShop\PsAccountsInstaller\Installer\Facade\PsAccounts
@@ -2780,7 +2358,7 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      *
      * @return \PrestaShop\PsAccountsInstaller\Installer\Installer
      */
-    protected function getInstaller3Service()
+    protected function getInstaller2Service()
     {
         return $this->services['PrestaShop\\PsAccountsInstaller\\Installer\\Installer'] = new \PrestaShop\PsAccountsInstaller\Installer\Installer('3.0.0');
     }
@@ -3336,116 +2914,6 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     }
 
     /**
-     * Gets the private 'psxmarketingwithgoogle' shared service.
-     *
-     * @return \PsxMarketingWithGoogle
-     */
-    protected function getPsxmarketingwithgoogleService()
-    {
-        return $this->services['psxmarketingwithgoogle'] = \Module::getInstanceByName('psxmarketingwithgoogle');
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.context' shared service.
-     *
-     * @return \Context
-     */
-    protected function getPsxmarketingwithgoogle_ContextService()
-    {
-        return $this->services['psxmarketingwithgoogle.context'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getContext();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.controller' shared service.
-     *
-     * @return \Controller
-     */
-    protected function getPsxmarketingwithgoogle_ControllerService()
-    {
-        return $this->services['psxmarketingwithgoogle.controller'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getController();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.cookie' shared service.
-     *
-     * @return \Cookie
-     */
-    protected function getPsxmarketingwithgoogle_CookieService()
-    {
-        return $this->services['psxmarketingwithgoogle.cookie'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getCookie();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.country' shared service.
-     *
-     * @return \Country
-     */
-    protected function getPsxmarketingwithgoogle_CountryService()
-    {
-        return $this->services['psxmarketingwithgoogle.country'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getCountry();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.currency' shared service.
-     *
-     * @return \Currency
-     */
-    protected function getPsxmarketingwithgoogle_CurrencyService()
-    {
-        return $this->services['psxmarketingwithgoogle.currency'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getCurrency();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.db' shared service.
-     *
-     * @return \Db
-     */
-    protected function getPsxmarketingwithgoogle_DbService()
-    {
-        return $this->services['psxmarketingwithgoogle.db'] = \Db::getInstance();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.language' shared service.
-     *
-     * @return \Language
-     */
-    protected function getPsxmarketingwithgoogle_LanguageService()
-    {
-        return $this->services['psxmarketingwithgoogle.language'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getLanguage();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.link' shared service.
-     *
-     * @return \Shop
-     */
-    protected function getPsxmarketingwithgoogle_LinkService()
-    {
-        return $this->services['psxmarketingwithgoogle.link'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getLink();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.shop' shared service.
-     *
-     * @return \Shop
-     */
-    protected function getPsxmarketingwithgoogle_ShopService()
-    {
-        return $this->services['psxmarketingwithgoogle.shop'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getShop();
-    }
-
-    /**
-     * Gets the private 'psxmarketingwithgoogle.smarty' shared service.
-     *
-     * @return \Smarty
-     */
-    protected function getPsxmarketingwithgoogle_SmartyService()
-    {
-        return $this->services['psxmarketingwithgoogle.smarty'] = \PrestaShop\Module\PsxMarketingWithGoogle\Factory\ContextFactory::getSmarty();
-    }
-
-    /**
      * Gets the private 'theme_manager' shared service.
      *
      * @return \PrestaShop\PrestaShop\Core\Addon\Theme\ThemeManager
@@ -3560,15 +3028,15 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'mailer_host' => '127.0.0.1',
             'mailer_user' => NULL,
             'mailer_password' => NULL,
-            'secret' => 'wCOq3pdp5SXPwQUNq5f8WzjTURqU8ERuSkPhbAnrj6w4nD18K8kHOO6Ucf2972m9',
+            'secret' => 'fn8ErJJtyu66qKKuqUxXds2y7xbbDaBWbvaOOoJTyxBQzJ3Hx996kJh8Ja9AckHN',
             'ps_caching' => 'CacheMemcache',
             'ps_cache_enable' => false,
-            'ps_creation_date' => '2022-01-06',
+            'ps_creation_date' => '2021-11-14',
             'locale' => 'pl-PL',
             'use_debug_toolbar' => true,
-            'cookie_key' => 'pnnnFA576iyAxTdRMXJKVd8n4f8Jp8aMz3cA82KmwbZNZCwLSA3ihLIxD5CfLIua',
-            'cookie_iv' => '8EJ8UBfa3ghYrz8CPwES7t2Q0UWO6DUi',
-            'new_cookie_key' => 'def000007e72c3624373bd2cca3ec14a99c9f842a2d4d4ce7438844b8ccbcdeffe8408cc57c8c78f5164325d81d526189dad1669b09e473bb9981c3c0406faa7466c5fa9',
+            'cookie_key' => 'gQUzsNUOLxFfFPo4NTm1tmNhmZduah5NQHA2HEBFo6KPh4XPv51vrVjPcBTp4QO9',
+            'cookie_iv' => 'JtFcYqBN4AWBP2qrdXH3iXfF6txhfY5j',
+            'new_cookie_key' => 'def00000a2e64afae29d9205512b343b68624b374627d5a0774e303f411129f8c6b2466bea6aec2554f490a68301a66b7540804f8c01e5d9d43314d2f275dab60be67992',
             'cache.driver' => 'array',
             'kernel.bundles' => [
 
@@ -3644,9 +3112,8 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 61 => 'ps_buybuttonlite',
                 62 => 'ps_metrics',
                 63 => 'ps_facebook',
-                64 => 'psxmarketingwithgoogle',
-                65 => 'blockreassurance',
-                66 => 'ps_cashondelivery',
+                64 => 'blockreassurance',
+                65 => 'ps_cashondelivery',
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',

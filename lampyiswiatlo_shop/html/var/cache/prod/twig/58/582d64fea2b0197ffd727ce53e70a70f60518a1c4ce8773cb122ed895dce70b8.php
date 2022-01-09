@@ -97,7 +97,7 @@ class __TwigTemplate_1cbd71e9a9f099767509d9c39b3a1f0e044fc6b4f079a8ec17b18de746f
 
     ";
             // line 45
-            $this->loadTemplate("@PrestaShop/Admin/Common/Grid/Blocks/grid_actions.html.twig", "@PrestaShop/Admin/Common/Grid/Blocks/grid_actions.html.twig", 45, "301935125")->display(twig_array_merge($context, ["id" => ($this->getAttribute(            // line 46
+            $this->loadTemplate("@PrestaShop/Admin/Common/Grid/Blocks/grid_actions.html.twig", "@PrestaShop/Admin/Common/Grid/Blocks/grid_actions.html.twig", 45, "2139673647")->display(twig_array_merge($context, ["id" => ($this->getAttribute(            // line 46
 ($context["grid"] ?? null), "id", []) . "_grid_common_show_query_modal"), "title" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("SQL query", [], "Admin.Global"), "closable" => true, "actions" => [0 => ["type" => "button", "label" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Export to SQL Manager", [], "Admin.Actions"), "value" => "sql_manager", "class" => "btn btn-primary btn-lg btn-sql-submit"]]]));
             // line 70
             echo "  </div>
@@ -136,7 +136,7 @@ class __TwigTemplate_1cbd71e9a9f099767509d9c39b3a1f0e044fc6b4f079a8ec17b18de746f
 
 
 /* @PrestaShop/Admin/Common/Grid/Blocks/grid_actions.html.twig */
-class __TwigTemplate_1cbd71e9a9f099767509d9c39b3a1f0e044fc6b4f079a8ec17b18de746fb6939___301935125 extends \Twig\Template
+class __TwigTemplate_1cbd71e9a9f099767509d9c39b3a1f0e044fc6b4f079a8ec17b18de746fb6939___2139673647 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {

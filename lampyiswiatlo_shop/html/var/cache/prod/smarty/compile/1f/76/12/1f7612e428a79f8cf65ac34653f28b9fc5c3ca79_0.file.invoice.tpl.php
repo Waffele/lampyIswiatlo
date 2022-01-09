@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2022-01-07 17:04:01
+/* Smarty version 3.1.39, created on 2022-01-09 15:09:36
   from '/var/www/html/pdf/invoice.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61d86471456749_57188012',
+  'unifunc' => 'content_61daeca0d780d8_38587698',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1f7612e428a79f8cf65ac34653f28b9fc5c3ca79' => 
     array (
       0 => '/var/www/html/pdf/invoice.tpl',
-      1 => 1631177245,
+      1 => 1636895738,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61d86471456749_57188012 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61daeca0d780d8_38587698 (Smarty_Internal_Template $_smarty_tpl) {
 echo $_smarty_tpl->tpl_vars['style_tab']->value;?>
 
 

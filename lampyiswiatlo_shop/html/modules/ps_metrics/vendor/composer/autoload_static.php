@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6a9d076ad203657c821d8344b87c2a70
+class ComposerStaticInit50e54e7aa7492dd971492035ff048f9e
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -177,7 +177,6 @@ class ComposerStaticInit6a9d076ad203657c821d8344b87c2a70
 
     public static $classMap = array (
         'AdminAjaxDashboardController' => __DIR__ . '/../..' . '/controllers/admin/AdminAjaxDashboardController.php',
-        'AdminAjaxMetricsController' => __DIR__ . '/../..' . '/controllers/admin/AdminAjaxMetricsController.php',
         'AdminAjaxSettingsController' => __DIR__ . '/../..' . '/controllers/admin/AdminAjaxSettingsController.php',
         'AdminGraphqlController' => __DIR__ . '/../..' . '/controllers/admin/AdminGraphqlController.php',
         'AdminLegacyStatsMetricsController' => __DIR__ . '/../..' . '/controllers/admin/AdminLegacyStatsMetricsController.php',
@@ -554,7 +553,6 @@ class ComposerStaticInit6a9d076ad203657c821d8344b87c2a70
         'PrestaShop\\Module\\Ps_metrics\\GraphQL\\DataLoaders\\UniqueUsersDataLoaders' => __DIR__ . '/../..' . '/src/GraphQL/DataLoaders/UniqueUsersDataLoaders.php',
         'PrestaShop\\Module\\Ps_metrics\\GraphQL\\DataLoaders\\revenueGrossGroupByDistributionDataLoaders' => __DIR__ . '/../..' . '/src/GraphQL/DataLoaders/RevenueGrossGroupByDistributionDataLoaders.php',
         'PrestaShop\\Module\\Ps_metrics\\Handler\\GuzzleApiResponseExceptionHandler' => __DIR__ . '/../..' . '/src/Handler/GuzzleApiResponseExceptionHandler.php',
-        'PrestaShop\\Module\\Ps_metrics\\Handler\\NativeStatsHandler' => __DIR__ . '/../..' . '/src/Handler/NativeStatsHandler.php',
         'PrestaShop\\Module\\Ps_metrics\\Helper\\ApiHelper' => __DIR__ . '/../..' . '/src/Helper/ApiHelper.php',
         'PrestaShop\\Module\\Ps_metrics\\Helper\\DataHelper' => __DIR__ . '/../..' . '/src/Helper/DataHelper.php',
         'PrestaShop\\Module\\Ps_metrics\\Helper\\DbHelper' => __DIR__ . '/../..' . '/src/Helper/DbHelper.php',
@@ -579,6 +577,7 @@ class ComposerStaticInit6a9d076ad203657c821d8344b87c2a70
         'PrestaShop\\Module\\Ps_metrics\\Middleware\\Middleware' => __DIR__ . '/../..' . '/src/Middleware/Middleware.php',
         'PrestaShop\\Module\\Ps_metrics\\Middleware\\ResponseMiddleware' => __DIR__ . '/../..' . '/src/Middleware/ResponseMiddleware.php',
         'PrestaShop\\Module\\Ps_metrics\\Middleware\\SentryMiddleware' => __DIR__ . '/../..' . '/src/Middleware/SentryMiddleware.php',
+        'PrestaShop\\Module\\Ps_metrics\\Module\\DashboardModules' => __DIR__ . '/../..' . '/src/Module/DashboardModules.php',
         'PrestaShop\\Module\\Ps_metrics\\Module\\GAInstaller' => __DIR__ . '/../..' . '/src/Module/GAInstaller.php',
         'PrestaShop\\Module\\Ps_metrics\\Module\\Install' => __DIR__ . '/../..' . '/src/Module/Install.php',
         'PrestaShop\\Module\\Ps_metrics\\Module\\Uninstall' => __DIR__ . '/../..' . '/src/Module/Uninstall.php',
@@ -594,7 +593,6 @@ class ComposerStaticInit6a9d076ad203657c821d8344b87c2a70
         'PrestaShop\\Module\\Ps_metrics\\Repository\\HookModuleRepository' => __DIR__ . '/../..' . '/src/Repository/HookModuleRepository.php',
         'PrestaShop\\Module\\Ps_metrics\\Repository\\OrdersRepository' => __DIR__ . '/../..' . '/src/Repository/OrdersRepository.php',
         'PrestaShop\\Module\\Ps_metrics\\Repository\\PaymentRepository' => __DIR__ . '/../..' . '/src/Repository/PaymentRepository.php',
-        'PrestaShop\\Module\\Ps_metrics\\StatsTabManager' => __DIR__ . '/../..' . '/src/StatsTabManager.php',
         'PrestaShop\\Module\\Ps_metrics\\Tracker\\Segment' => __DIR__ . '/../..' . '/src/Tracker/Segment.php',
         'PrestaShop\\Module\\Ps_metrics\\Tracker\\TrackerInterface' => __DIR__ . '/../..' . '/src/Tracker/TrackerInterface.php',
         'PrestaShop\\Module\\Ps_metrics\\Translation\\DashboardTranslation' => __DIR__ . '/../..' . '/src/Translation/DashboardTranslation.php',
@@ -1039,9 +1037,9 @@ class ComposerStaticInit6a9d076ad203657c821d8344b87c2a70
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6a9d076ad203657c821d8344b87c2a70::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6a9d076ad203657c821d8344b87c2a70::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit6a9d076ad203657c821d8344b87c2a70::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit50e54e7aa7492dd971492035ff048f9e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit50e54e7aa7492dd971492035ff048f9e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit50e54e7aa7492dd971492035ff048f9e::$classMap;
 
         }, null, ClassLoader::class);
     }

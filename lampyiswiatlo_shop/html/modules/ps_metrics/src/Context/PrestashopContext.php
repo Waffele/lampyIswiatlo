@@ -170,12 +170,4 @@ class PrestaShopContext
     {
         return (int) $this->getEmployee()->id_lang;
     }
-
-    /**
-     * @return string
-     */
-    public function getEmployeeEmail()
-    {
-        return $this->getEmployee()->email;
-    }
 }

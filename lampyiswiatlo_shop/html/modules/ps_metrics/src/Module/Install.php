@@ -95,8 +95,7 @@ class Install
     {
         return $this->configurationRepository->saveActionGoogleLinked(false) &&
             $this->configurationRepository->saveGoogleTagLinked(false) &&
-            $this->configurationRepository->saveDashboardModulesToToggle() &&
-            $this->configurationRepository->saveFirstTimeOnboarded(false);
+            $this->configurationRepository->saveDashboardModulesToToggle();
     }
 
     /**
@@ -116,11 +115,29 @@ class Install
             }
 
             $tab = new Tab();
-            $tab->name = array_fill_keys(
-                Language::getIDs(false),
-                $this->module->displayName
-            );
-            $tab->id_parent = -1;
+            if (
+                $controllerName === $this->module->legacyStatsController &&
+                version_compare($this->psVersion, '1.7.0.0', '>')
+            ) {
+                $legacyStatsTab = new Tab(Tab::getIdFromClassName('AdminStats'));
+                $tab->name = $legacyStatsTab->name;
+            } else {
+                $tab->name = array_fill_keys(
+                    Language::getIDs(false),
+                    $this->module->displayName
+                );
+            }
+
+            if (
+                $controllerName === $this->module->metricsStatsController ||
+                ($controllerName === $this->module->legacyStatsController &&
+                    version_compare($this->psVersion, '1.7.0.0', '>'))
+            ) {
+                $tab->id_parent = Tab::getIdFromClassName('AdminStats');
+            } else {
+                $tab->id_parent = $this->getTabParentIdByController($controllerName);
+            }
+
             $tab->class_name = $controllerName;
             $tab->active = true;
             $tab->module = $this->module->name;
@@ -129,5 +146,23 @@ class Install
         }
 
         return $installTabCompleted;
+    }
+
+    /**
+     * Get the correct id parent tab depending on the controller
+     *
+     * @param string $controllerName
+     * @param int $categoryId
+     *
+     * @return int
+     */
+    private function getTabParentIdByController($controllerName, $categoryId = -1)
+    {
+        switch ($controllerName) {
+            case 'AdminMetricsStats':
+                return $categoryId;
+            default:
+                return -1;
+        }
     }
 }

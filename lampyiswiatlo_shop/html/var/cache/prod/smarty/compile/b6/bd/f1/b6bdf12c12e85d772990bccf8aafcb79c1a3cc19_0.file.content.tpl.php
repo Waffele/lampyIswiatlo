@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2022-01-06 20:47:04
+/* Smarty version 3.1.39, created on 2022-01-09 15:01:42
   from '/var/www/html/admin-dev/themes/default/template/controllers/images/content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61d747388e4a42_67568973',
+  'unifunc' => 'content_61daeac6a33206_92416588',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b6bdf12c12e85d772990bccf8aafcb79c1a3cc19' => 
     array (
       0 => '/var/www/html/admin-dev/themes/default/template/controllers/images/content.tpl',
-      1 => 1631177245,
+      1 => 1636895731,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61d747388e4a42_67568973 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61daeac6a33206_92416588 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="alert alert-danger">
 	<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'By default, all images settings are already installed in your store. Do not delete them, you will need it!','d'=>'Admin.Design.Help'),$_smarty_tpl ) );?>
@@ -47,8 +47,8 @@ function content_61d747388e4a42_67568973 (Smarty_Internal_Template $_smarty_tpl)
 </p>
                 <p><?php ob_start();
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Move images','d'=>'Admin.Design.Feature'),$_smarty_tpl ) );
-$_prefixVariable5 = ob_get_clean();
-echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'You can also decide to move your images to the new storage system. In this case, click on the "%move_images_label%" button below. Please be patient. This can take several minutes.','d'=>'Admin.Design.Notification','sprintf'=>array('%move_images_label%'=>$_prefixVariable5)),$_smarty_tpl ) );?>
+$_prefixVariable1 = ob_get_clean();
+echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'You can also decide to move your images to the new storage system. In this case, click on the "%move_images_label%" button below. Please be patient. This can take several minutes.','d'=>'Admin.Design.Notification','sprintf'=>array('%move_images_label%'=>$_prefixVariable1)),$_smarty_tpl ) );?>
 </p>
             </div>
             <div class="alert alert-info">&nbsp;

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Copyright since 2007 PrestaShop SA and Contributors
  * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
@@ -24,7 +23,6 @@ namespace PrestaShop\Module\Ps_metrics\Presenter\Store\Settings;
 use PrestaShop\Module\Ps_metrics\Adapter\LinkAdapter;
 use PrestaShop\Module\Ps_metrics\Api\HttpApi;
 use PrestaShop\Module\Ps_metrics\Context\PrestaShopContext;
-use PrestaShop\Module\Ps_metrics\Handler\NativeStatsHandler;
 use PrestaShop\Module\Ps_metrics\Module\GAInstaller;
 use PrestaShop\Module\Ps_metrics\Presenter\PresenterInterface;
 use PrestaShop\Module\Ps_metrics\Provider\AnalyticsAccountsListProvider;
@@ -97,11 +95,6 @@ class SettingsPresenter implements PresenterInterface
     private $httpApi;
 
     /**
-     * @var NativeStatsHandler;
-     */
-    private $nativeStats;
-
-    /**
      * SettingsPresenter constructor.
      *
      * @param Ps_metrics $module
@@ -114,7 +107,6 @@ class SettingsPresenter implements PresenterInterface
      * @param GoogleTagProvider $googleTagProvider
      * @param GAInstaller $gaInstaller
      * @param HttpApi $httpApi
-     * @param NativeStatsHandler $nativeStats
      */
     public function __construct(
         Ps_metrics $module,
@@ -126,8 +118,7 @@ class SettingsPresenter implements PresenterInterface
         AnalyticsAccountsListProvider $analyticsAccountsListProvider,
         GoogleTagProvider $googleTagProvider,
         GAInstaller $gaInstaller,
-        HttpApi $httpApi,
-        NativeStatsHandler $nativeStats
+        HttpApi $httpApi
     ) {
         $this->module = $module;
         $this->context = $context;
@@ -139,7 +130,6 @@ class SettingsPresenter implements PresenterInterface
         $this->googleTagProvider = $googleTagProvider;
         $this->gaInstaller = $gaInstaller;
         $this->httpApi = $httpApi;
-        $this->nativeStats = $nativeStats;
     }
 
     /**
@@ -184,7 +174,6 @@ class SettingsPresenter implements PresenterInterface
                     'enableLink' => $this->gaInstaller->getEnableLink(),
                     'configLink' => $this->gaInstaller->getConfigLink(),
                 ],
-                'modulesIsEnabled' => $this->nativeStats->nativeStatsIsEnabled(),
                 'oAuthGoogleErrorMessage' => $this->responseApiMessage,
                 'linkDashboard' => $this->linkAdapter->getAdminLink('AdminDashboard', true, [], []),
                 'linkMetrics' => $this->linkAdapter->getAdminLink('AdminMetricsStats', true, [], []),

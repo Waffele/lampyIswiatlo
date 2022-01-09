@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Copyright since 2007 PrestaShop SA and Contributors
  * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
@@ -50,17 +49,12 @@ class ProductTopSellerDataLoaders extends DataLoadersFactory
      */
     public function getDatas($dateRange, $limit = 10)
     {
-        $rows = $this->dbHelper->executeS('SELECT 
-            od.product_id as productId, 
-            SUM(od.product_quantity) as quantity, 
-            SUM(od.total_price_tax_incl) as amount,
-            sa.quantity as stock 
-            FROM ' . _DB_PREFIX_ . 'order_detail od
+        $rows = $this->dbHelper->executeS('SELECT od.product_id as productId, SUM(od.product_quantity) as quantity
+            , SUM(od.total_price_tax_incl) as amount FROM ps_order_detail od
             INNER JOIN ' . _DB_PREFIX_ . 'orders o ON (od.id_order = o.id_order)
-            INNER JOIN ' . _DB_PREFIX_ . 'stock_available sa ON (sa.id_product_attribute = od.product_attribute_id and sa.id_product = od.product_id)
             WHERE o.date_add ' . $this->buildBetweenCondition($dateRange) . '
             GROUP BY od.product_id
-            ORDER BY amount DESC
+            ORDER BY quantity DESC
             LIMIT ' . $limit);
 
         $products = [];
@@ -71,7 +65,6 @@ class ProductTopSellerDataLoaders extends DataLoadersFactory
                     'name' => \Product::getProductName($row['productId']),
                     'quantity' => $row['quantity'],
                     'amount' => $row['amount'],
-                    'stock' => $row['stock'],
                 ];
                 array_push($products, $product);
             }

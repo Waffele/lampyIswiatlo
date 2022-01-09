@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2022-01-07 17:02:23
+/* Smarty version 3.1.39, created on 2021-11-15 02:00:30
   from '/var/www/html/themes/classic/templates/checkout/_partials/cart-summary-subtotals.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61d8640f5bb0a3_56030658',
+  'unifunc' => 'content_6191b12eb63f59_27655445',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eebff5bd9bee2b44e88ffefefab25163052bb02d' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/cart-summary-subtotals.tpl',
-      1 => 1631177245,
+      1 => 1636895740,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61d8640f5bb0a3_56030658 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6191b12eb63f59_27655445 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="card-block cart-summary-subtotals-container">
 
