@@ -1,8 +1,8 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => 'actina15.maas',
-    'database_port' => '3306',
+    'database_host' => 'admin-mysql_db',
+    'database_port' => '',
     'database_name' => 'BE_180158_db',
     'database_user' => 'BE_180158',
     'database_password' => 'okon',
