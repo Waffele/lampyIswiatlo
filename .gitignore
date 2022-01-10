@@ -1,6 +1,6 @@
 config/settings.*.php
 /cache/*
-/webshop/var/cache
+/lampyiswiatlo_shop/html/var/cache
 !/cache/index.php
 !/cache/*/
 /cache/*/*
