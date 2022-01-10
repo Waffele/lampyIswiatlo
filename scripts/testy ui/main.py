@@ -181,7 +181,7 @@ def add_product(category, page):
 
 
 if __name__ == '__main__':
-    driver.get("https://localhost/")
+    driver.get("https://localhost:18014/")
     driver.find_element(By.ID, "details-button").click()
     driver.find_element(By.ID, "proceed-link").click()
 
